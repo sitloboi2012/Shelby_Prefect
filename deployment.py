@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from test import pipeline
 from prefect.deployments import Deployment
 
