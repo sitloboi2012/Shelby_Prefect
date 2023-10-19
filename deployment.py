@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from test import pipeline
+from main import pipeline
 from prefect.deployments import Deployment
 
 deployment = Deployment.build_from_flow(
     flow=pipeline,
-    name="Python Deployment Example",
+    name="Financial Historical Data Ingestion Pipeline",
 )
 
 if __name__ == "__main__":
